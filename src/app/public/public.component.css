@@ -1,0 +1,35 @@
+.myContainer{
+    background-image: linear-gradient(rgba(148, 206, 148, 0.589),rgba(228, 217, 224, 0.712)),url('../../assets/school.jpg');
+    height: 200px;
+    background-size:cover;
+    /* position: relative; */
+    padding: 20px;
+}
+
+.nav-item a{
+    font-weight: bold;
+    color: white;
+}
+
+.prof{
+    height: 110px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+}
+
+.avatarImg{
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-footer{
+    font-weight: lighter;
+    font-size: small;
+    color: white;
+}
